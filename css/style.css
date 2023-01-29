@@ -1,0 +1,246 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #F3F3F3;
+}
+
+/*----------titutlo de la página----------*/
+header{
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.title{
+    max-width: 980px;
+    padding: 10px;
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #F3F3F3;
+}
+
+.logo img{
+    width: 250px;
+}
+
+/*----------cuerpo principal----------*/
+main{
+    display: block;
+    width: 100%;
+}
+
+.container{
+    max-width: 980px;
+    padding: 20px;
+    margin: auto;
+}
+
+.container-textarea{
+    display: flex;
+    width: 100%;
+}
+
+/*----------izquierda----------*/
+.left{
+    display: flex;
+    width: 60%;
+}
+
+.textarea-left{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.textarea-left textarea{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+    font-size: 18px;
+    color: #0A3871;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    background: #FFFFFF;
+}
+
+.textarea-left img{
+    width: 3%;
+}
+
+.textarea-left p{
+    display: block;
+    width: 100%;
+    font-size: 1vw;
+    color: #297AE3;
+    font-style: italic;
+}
+
+/*----------derecha----------*/
+.right{
+    display: flex;
+    width: 40%;
+}
+
+/*-----visble antes-----*/
+.munheco-text{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.img-munheco{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.img-munheco img{
+    width: 100%;
+}
+
+.text-notext{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.text-notext h3{
+    font-size: 1.4vw;
+    color: #297AE3;
+}
+
+/*-----visible despues-----*/
+.textarea-copy{
+    display: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.textarea-right{
+    display: block;
+    width: 100%;
+    height: 85%;   
+}
+
+.textarea-right textarea{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #0A3871;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    background: #FFFFFF;
+}
+
+/*boton copiar*/
+.button-copy{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-copy{
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #525152;
+    border: 1px solid #525152;
+    border-radius: 10px;
+    background: #F3F3F3;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.btn-copy:hover{
+    color: #F3F3F3;
+    background: #525152;
+    transition: all 400ms;
+}
+
+.btn-copy:active{
+    transform: scale(0.9);
+    transition: 100ms;
+}
+
+/*----------area botones----------*/
+.container-buttons{
+    width: 47%;
+    padding: 20px;
+}
+
+.buttons{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons button{
+    min-width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0px 15px;
+    color: #297AE3;
+    border: 1px solid #297AE3;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.buttons button:hover{
+    transform: scale(1.2);
+    color: #F3F3F3;
+    background: #297AE3;
+    transition: all 500ms;
+}
+
+footer{
+    display: block;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.container-footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.container-footer p{
+    font-size: 12px;
+    color: #F3F3F3;
+
+}
